@@ -16,3 +16,15 @@ if os.path.exists('input.txt'):
 
 #ここから回答を記載
 #%%
+N = int(input())
+qrs = [list(map(int, input().split())) for _ in range(N)]
+Q= int(input())
+tds = [list(map(int, input().split())) for _ in range(Q)]
+# %%
+for td in tds:
+    t, d = td
+
+    k = ((d - qrs[t-1][1]-1) // qrs[t-1][0]) + 1
+
+    print(qrs[t-1][1] + k * qrs[t-1][0])
+# %%

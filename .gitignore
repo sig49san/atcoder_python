@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 atcoder_python
+
+# 問題を解くためのコードなので、変更の追跡は必要ない。

@@ -1,1 +1,1 @@
-python3 answer.py < input.txt
+python3 exam/answer.py < exam/input.txt
